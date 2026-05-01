@@ -5,8 +5,8 @@ Scrapes Google Maps to find local businesses without a website — used for cold
 ## How it works
 
 1. `scraper.py` — searches a grid of points across a region and pulls businesses by category, outputs to `leads.txt`
-2. `remove_no_phone.py` — filters out any leads without a phone number, outputs to `leads_with_phones.txt`
-3. `remove_duplicates.py` — removes duplicate entries, outputs to `leads_clean.txt`
+2. `leads_no_phone.py` — filters out any leads without a phone number, outputs to `leads_with_phone.txt`
+3. `duplicates.py` — removes duplicate entries, outputs to `leads_deduplicated.txt`
 
 ## Setup
 
